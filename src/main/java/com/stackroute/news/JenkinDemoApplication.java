@@ -17,4 +17,8 @@ public class JenkinDemoApplication {
 	public String sayHello() {
 		return "Welocome to JenkinDemo";
 	}
+	@GetMapping("/goodBy")
+	public String sayGoodBy() {
+		return "Good By";
+	}
 }
